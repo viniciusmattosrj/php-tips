@@ -19,22 +19,26 @@ return [
         "default_database" => "dev",
         "dev" => [
             "development" => [
-                "adapter"   => $db['dev']['driver'],
-                "host"      => $db['dev']['host'],
-                "name"      => $db['dev']['dbname'],
-                "user"      => $db['dev']['username'],
-                "password"  => $db['dev']['passwd'],
-                "charset"   => $db['dev']['charset'],
-                "collation" => $db['dev']['collation']
+                "adapter"      => $db['dev']['driver'],
+                "host"         => $db['dev']['host'],
+                "name"         => $db['dev']['database'],
+                "user"         => $db['dev']['username'],
+                "password"     => $db['dev']['passwd'],
+                "charset"      => $db['dev']['charset'],
+                "collation"    => $db['dev']['collation'],
+                "table_prefix" => $db['dev']['table_prefix'],
+                "table_suffix" => $db['dev']['table_suffix'],
              ],
             "production" => [
-                "adapter"   => $db['prod']['driver'],
-                "host"      => $db['prod']['host'],
-                "name"      => $db['prod']['dbname'],
-                "user"      => $db['prod']['username'],
-                "password"  => $db['prod']['passwd'],
-                "charset"   => $db['prod']['charset'],
-                "collation" => $db['prod']['collation']
+                "adapter"      => $db['prod']['driver'],
+                "host"         => $db['prod']['host'],
+                "name"         => $db['prod']['database'],
+                "user"         => $db['prod']['username'],
+                "password"     => $db['prod']['passwd'],
+                "charset"      => $db['prod']['charset'],
+                "collation"    => $db['prod']['collation'],
+                "table_prefix" => $db['prod']['table_prefix'],
+                "table_suffix" => $db['prod']['table_suffix'],
             ],
         ]
     ]
