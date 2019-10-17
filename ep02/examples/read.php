@@ -2,14 +2,22 @@
 
 require __DIR__ . "/../vendor/autoload.php";
 
-use CoffeeCode\DataLayer\Connect;
+//use CoffeeCode\DataLayer\Connect;
+//
+//$conn = Connect::getInstance();
+//$error = Connect::getError();
+//
+//if ($error) {
+//    echo $error->getMessage();
+//    die('Oi');
+//}
+//
+//$query = $conn->query("SELECT * FROM users");
+//var_dump($query->fetchAll());
 
-$conn = Connect::getInstance();
-$error = Connect::getError();
+use Source\Models\User;
 
-if ($error) {
-    echo $error->getMessage();
-    die('Oi');
-}
+$user = new User();
+$list = $user->find()->fetch(true);
 
-var_dump(true);
+var_dump($user);

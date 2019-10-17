@@ -4,7 +4,7 @@
 composer.json
 .env
 docker-compose.yml
-vendor/*
+*/vendor/*
 
 #----------------------------------------------------------
 # IDE configurations
