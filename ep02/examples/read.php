@@ -20,4 +20,10 @@ use Source\Models\User;
 $user = new User();
 $list = $user->find()->fetch(true);
 
-var_dump($user);
+/** @var $userItem User */
+foreach ($list as $userItem) {
+    var_dump($userItem->first_name);
+    foreach ($userItem->addresses() as $address) {
+        var_dump($address->data());
+    }
+}
