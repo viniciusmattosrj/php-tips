@@ -1,10 +1,10 @@
 <?php
 
 define("MAIL", [
-    "host"       => "",
-    "port"       => "",
-    "user"       => "",
-    "passwd"     => "",
-    "from_name"  => "Vinicius Mattos",
-    "from_email" => "vinimattos.rj@gmail.com"
+    "host"       => "null",
+    "port"       => "null",
+    "user"       => "null",
+    "passwd"     => "null",
+    "from_name"  => "Nome Destinatario",
+    "from_email" => "email@email.com"
 ]);
