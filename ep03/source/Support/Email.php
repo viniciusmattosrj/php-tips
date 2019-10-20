@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 class Email
 {
     /**@var PHPMailer */
-    private $email;
+    private $mail;
 
     /**@var stdClass */
     private $data;
@@ -65,7 +65,7 @@ class Email
                 }
             }
 
-            $this->email->send();
+            $this->mail->send();
             return true;
         } catch (Exception $exception){
             $this->error = $exception;

@@ -11,6 +11,11 @@ $email->add(
     "<h1>Teste Envio</h1>",
     "Vinicius Mattos",
     "vinimattos.rj@gmail.com"
-);
+)->send();
 
-var_dump($email);
+if ($email->error()) {
+    echo $email->error()->getMessage();
+    die('kkk');
+}
+
+var_dump(true);
