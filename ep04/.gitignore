@@ -1,0 +1,5 @@
+
+.vendor/*
+composer.json
+docker-compose.yml
+./source/Config.php
