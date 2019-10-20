@@ -49,6 +49,7 @@ class Email
     public function attach(string $filePath, string $fileName): Email
     {
         $this->data->attach[$filePath] = $fileName;
+        return $this;
     }
 
     public function send(string $from_name = MAIL["from_name"], string $from_email = MAIL["from_email"])
