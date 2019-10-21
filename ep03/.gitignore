@@ -1,5 +1,14 @@
-
-.vendor/*
+#----------------------------------------------------------
+# Application main configurations
+#----------------------------------------------------------
 composer.json
+*/vendor/*
+.env
 docker-compose.yml
-*/source/Config.php
+./source/Config.php
+
+#----------------------------------------------------------
+# IDE configurations
+#----------------------------------------------------------
+.vscode
+.idea
