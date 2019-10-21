@@ -2,9 +2,10 @@
 # Application main configurations
 #----------------------------------------------------------
 composer.json
+*/vendor/*
 .env
 docker-compose.yml
-*/vendor/*
+./source/Config.php
 
 #----------------------------------------------------------
 # IDE configurations
