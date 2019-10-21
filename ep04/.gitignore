@@ -5,7 +5,7 @@ composer.json
 */vendor/*
 .env
 docker-compose.yml
-./source/Config.php
+ep04/source/Config.php
 
 #----------------------------------------------------------
 # IDE configurations
