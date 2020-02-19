@@ -17,7 +17,7 @@ Um projeto onde a ideia é a gente programar juntos, se divertindo, enquanto res
 ## Instalação
 Realizar o git clone do projeto
 ```bash
-git clone git@github.com:viniciusmattosrj/php-ajax.git
+git clone git@github.com:viniciusmattosrj/php-tips.git
 ```
 
 Para que o git não considere alterações de permissão como modificações a serem rastreadas, execute:
