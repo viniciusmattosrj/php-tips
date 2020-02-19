@@ -1,5 +1,5 @@
 # Sobre o Projeto
-Dicas sobre PHP Tips.
+Um projeto onde a ideia é a gente programar juntos, se divertindo, enquanto resolve problemas específicos desenvolvendo aplicações reais que você pode colocar em seus projetos para aumentar sua produtividade, qualidade do código e ciclo de vida da aplicação.
 - <a href="https://www.youtube.com/results?search_query=%23phptips">PHP TIPS</a> - Robson Leite
 
 
