@@ -53,7 +53,7 @@ docker-compose up -d
 Em outra aba do terminal se conecte no container do php e inicie um servidor built in do PHP
 ```
 docker exec -it php bash
-php -S 10.11.0.11:8008 -t public
+php -S 10.11.0.11:8008 -t .
 ```
 
 No browser digite http://10.11.0.11:8008
@@ -92,8 +92,8 @@ mysql -u root -p php_tips < /var/lib/mysql57/php_tips.sql
 Para o acesso no <strong>MYSQL</strong> database administration tool, use http://localhost:8080 e use as credênciais abaixo:
 
   - server: 10.11.0.3
-  - username:
-  - password:
+  - username: root 
+  - password: A123456
 
 
 ## Contribuições
