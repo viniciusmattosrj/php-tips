@@ -1,10 +1,10 @@
 <?php
 
-define("DATA-LAYER_CONFIG", [
+define("DATA_LAYER_CONFIG", [
     "driver"   => "mysql",
     "host"     => "10.11.0.3",
     "port"     => "3306",
-    "dbname"   => "datalayer_example",
+    "dbname"   => "phptips",
     "username" => "root",
     "passwd"   => "A123456",
     "options"  => [

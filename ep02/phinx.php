@@ -21,7 +21,7 @@ return [
             "development" => [
                 "adapter"      => $db['dev']['driver'],
                 "host"         => $db['dev']['host'],
-                "name"         => $db['dev']['database'],
+                "name"         => $db['dev']['name'],
                 "user"         => $db['dev']['username'],
                 "password"     => $db['dev']['passwd'],
                 "charset"      => $db['dev']['charset'],
@@ -32,7 +32,7 @@ return [
             "production" => [
                 "adapter"      => $db['prod']['driver'],
                 "host"         => $db['prod']['host'],
-                "name"         => $db['prod']['database'],
+                "name"         => $db['prod']['name'],
                 "user"         => $db['prod']['username'],
                 "password"     => $db['prod']['passwd'],
                 "charset"      => $db['prod']['charset'],
